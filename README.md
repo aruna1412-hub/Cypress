@@ -13,7 +13,7 @@ The steps below will take you all the way through Cypress. It is assumed you hav
 
 ### 1. Install Cypress
 
-[Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
+[Follow these instructions to install Cypress.](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 ### 2. Clone this repo
 
