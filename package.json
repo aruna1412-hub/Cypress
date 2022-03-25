@@ -6,7 +6,6 @@
   "scripts": {
     "start": "http-server -p 8888 -c-1",
     "lint": "eslint --fix cypress/integration cypress/support js",
-    "effective:circle:config": "circleci config process circle.yml | sed /^#/d",
     "types": "tsc --noEmit"
   },
   "dependencies": {
