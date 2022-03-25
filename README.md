@@ -1,20 +1,7 @@
 # TodoMVC [![Circle CI](https://circleci.com/gh/cypress-io/cypress-example-todomvc.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress-example-todomvc) [![Build status](https://ci.appveyor.com/api/projects/status/6wjyoye82orkkyny/branch/master?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-todomvc/branch/master)
  [![renovate-app badge][renovate-badge]][renovate-app]
 
-
-This repo contains an example React App, with the tests written in Cypress.
-
-Additionally this example app is configured to run tests in Circle CI and Travis CI.
-
-The tests are written to be directly compared to the official TodoMVC tests.
-
-Each test covers the same functionality found in the official TodoMVC tests but utilizes the Cypress API.
-
-The [tests are heavily commented](cypress/integration/app_spec.js) to ease you into the Cypress API.
-
-[You can find the official TodoMVC tests we are comparing to here.](https://github.com/tastejs/todomvc/blob/master/tests/test.js) [And here.](https://github.com/tastejs/todomvc/blob/master/tests/page.js) [And here.](https://github.com/tastejs/todomvc/blob/master/tests/testOperations.js)
-
-## Help + Testing
+## Help
 
 The steps below will take you all the way through Cypress. It is assumed you have nothing installed except for node + git.
 
