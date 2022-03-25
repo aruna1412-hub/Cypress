@@ -28,11 +28,7 @@ The steps below will take you all the way through Cypress. It is assumed you hav
 
 [Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
 
-### 2. Fork this repo
-
-If you want to experiment with running this project in Continous Integration, you'll need to [fork](https://github.com/cypress-io/cypress-example-todomvc#fork-destination-box) it first.
-
-After forking this project in `Github`, run these commands:
+### 2. Clone this repo
 
 ```bash
 ## clone this repo to a local directory
@@ -54,14 +50,6 @@ You can verify this by opening your browser and navigating to: [`http://localhos
 
 You should see the TodoMVC app up and running. We are now ready to run Cypress tests.
 
-### 3. Add the project to Cypress
-
-[Follow these instructions to add the project to Cypress.](https://on.cypress.io/guides/getting-started/installing-cypress#Installing)
-
-### 4. Run in Continuous Integration
-
-[Follow these instructions to run the tests in CI.](https://on.cypress.io/guides/continuous-integration#section-running-in-ci)
-
 ## Cypress IntelliSense
 
 If you use modern IDE that supports TypeScript (like VSCode), you can benefit
@@ -71,17 +59,6 @@ add `@ts-check` to the spec file and configure "dummy"
 commands.
 
 ![cy.type IntelliSense](img/cytype.png)
-
-### Custom commands
-
-This project also adds several custom commands in [cypress/support/commands.js](cypress/support/commands.js). They are useful to create one or more default todos from the tests.
-
-```js
-it('should append new items to the bottom of the list', function () {
-  cy.createDefaultTodos().as('todos')
-  // more test commands
-})
-```
 
 To let TypeScript compiler know that we have added a custom command and have IntelliSense working, I have described the type signature of the custom command in file [cypress/support/index.d.ts](cypress/support/index.d.ts). Here is how this file looks; the type signatures should match the arguments custom commands expect.
 
